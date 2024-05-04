@@ -1,0 +1,31 @@
++------------+     1      *     +----------+
+|  Customer  |------------------|  Order   |
++------------+                  +----------+
+|  - customer_id (PK)           |  - order_id (PK) 
+|  - email                      |  - customer_id (FK)
+|  - nombre                     |  - order_date
+|  - apellido                   |  - total_amount
+|  - sexo                       |  - status
+|  - dirección                  |
+|  - fecha_nacimiento           |
+|  - teléfono                   |
++-------------------------------+
+
++---------+    *     1       +-----------+
+|  Item   |------------------|  Order    |
++---------+                  +-----------+
+|  - item_id (PK)             |  - item_id (PK)
+|  - name                     |  - order_id (FK)
+|  - price                    |  
+|  - status                   |
+|  - fecha_baja               |
+|  - category_id (FK)         |
++-----------------------------+
+
++-----------+     1      *     +-----------+
+|  Category |------------------|   Item    |
++-----------+                  +-----------+
+|  - category_id (PK)         |  - category_id (PK)
+|  - description              |  - name
+|  - path                     |  - price
++-----------------------------+
