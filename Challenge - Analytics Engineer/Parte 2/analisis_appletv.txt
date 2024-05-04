@@ -1,0 +1,130 @@
+Primeras filas del DataFrame:
+             id site_id                                              title  \
+0  MLA915116973     MLA  Soporte Para Apple-tv Soporte Pared - Mueble -...   
+
+   seller_id category_id  official_store_id   price  base_price  \
+0  612274981   MLA352001                NaN  9990.8      9990.8   
+
+   original_price currency_id  ...                       warranty  \
+0             NaN         ARS  ...  Garantía del vendedor: 7 días   
+
+  catalog_product_id                    domain_id parent_item_id  \
+0                NaN  MLA-STREAMING_MEDIA_DEVICES            NaN   
+
+       deal_ids automatic_relist              date_created  \
+0  ['MLA14769']            False  2021-04-07T21:41:13.000Z   
+
+               last_updated health  catalog_listing  
+0  2024-04-22T19:33:33.000Z   0.77            False  
+
+[1 rows x 45 columns]
+
+Resumen estadístico de las columnas numéricas:
+        price  base_price  original_price  initial_quantity
+count     1.0         1.0             0.0               1.0
+mean   9990.8      9990.8             NaN               2.0
+std       NaN         NaN             NaN               NaN
+min    9990.8      9990.8             NaN               2.0
+25%    9990.8      9990.8             NaN               2.0
+50%    9990.8      9990.8             NaN               2.0
+75%    9990.8      9990.8             NaN               2.0
+max    9990.8      9990.8             NaN               2.0
+
+Información sobre las columnas y los tipos de datos:
+None
+
+Conteo de valores únicos en cada columna:
+id                                  1
+site_id                             1
+title                               1
+seller_id                           1
+category_id                         1
+official_store_id                   0
+price                               1
+base_price                          1
+original_price                      0
+currency_id                         1
+initial_quantity                    1
+sale_terms                          1
+buying_mode                         1
+listing_type_id                     1
+condition                           1
+permalink                           1
+thumbnail_id                        1
+thumbnail                           1
+pictures                            1
+video_id                            0
+descriptions                        1
+accepts_mercadopago                 1
+non_mercado_pago_payment_methods    1
+shipping                            1
+international_delivery_mode         1
+seller_address                      1
+seller_contact                      0
+location                            1
+coverage_areas                      1
+attributes                          1
+listing_source                      0
+variations                          1
+status                              1
+sub_status                          1
+tags                                1
+warranty                            1
+catalog_product_id                  0
+domain_id                           1
+parent_item_id                      0
+deal_ids                            1
+automatic_relist                    1
+date_created                        1
+last_updated                        1
+health                              1
+catalog_listing                     1
+dtype: int64
+
+Valores nulos o faltantes en el DataFrame:
+id                                  0
+site_id                             0
+title                               0
+seller_id                           0
+category_id                         0
+official_store_id                   1
+price                               0
+base_price                          0
+original_price                      1
+currency_id                         0
+initial_quantity                    0
+sale_terms                          0
+buying_mode                         0
+listing_type_id                     0
+condition                           0
+permalink                           0
+thumbnail_id                        0
+thumbnail                           0
+pictures                            0
+video_id                            1
+descriptions                        0
+accepts_mercadopago                 0
+non_mercado_pago_payment_methods    0
+shipping                            0
+international_delivery_mode         0
+seller_address                      0
+seller_contact                      1
+location                            0
+coverage_areas                      0
+attributes                          0
+listing_source                      1
+variations                          0
+status                              0
+sub_status                          0
+tags                                0
+warranty                            0
+catalog_product_id                  1
+domain_id                           0
+parent_item_id                      1
+deal_ids                            0
+automatic_relist                    0
+date_created                        0
+last_updated                        0
+health                              0
+catalog_listing                     0
+dtype: int64

@@ -1,0 +1,154 @@
+Primeras filas del DataFrame:
+              id site_id                                              title  \
+0   MLA918072516     MLA  Google Nest Mini Nest Mini 2nd Gen Con Asisten...   
+1  MLA1389173603     MLA  Google Nest Hub Con Asistente Virtual Google A...   
+2   MLA934111387     MLA  Google Nest Hub Con Asistente Virtual Google A...   
+3  MLA1127771299     MLA  Google Home Mini Con Asistente Virtual Google ...   
+4  MLA1376911913     MLA  Google Home Mini Con Asistente Virtual Google ...   
+
+   seller_id category_id  official_store_id     price  base_price  \
+0  119914491   MLA409415                NaN   61740.5     61740.5   
+1  309453406   MLA409415                NaN  184992.6    184992.6   
+2  284824585   MLA409415                NaN  184995.0    184995.0   
+3  119914491   MLA409415                NaN   70301.1     70301.1   
+4   56599171   MLA409415                NaN  128999.0    128999.0   
+
+   original_price currency_id  ...                        warranty  \
+0         64990.0         ARS  ...  Garantía del vendedor: 6 meses   
+1        249990.0         ARS  ...  Garantía del vendedor: 3 meses   
+2        369990.0         ARS  ...  Garantía del vendedor: 6 meses   
+3         78990.0         ARS  ...  Garantía del vendedor: 6 meses   
+4             NaN         ARS  ...  Garantía del vendedor: 6 meses   
+
+  catalog_product_id           domain_id parent_item_id  \
+0        MLA15541143  MLA-SMART_SPEAKERS            NaN   
+1        MLA15532617  MLA-SMART_SPEAKERS            NaN   
+2        MLA15532616  MLA-SMART_SPEAKERS            NaN   
+3        MLA15541917  MLA-SMART_SPEAKERS            NaN   
+4        MLA15541916  MLA-SMART_SPEAKERS            NaN   
+
+                               deal_ids automatic_relist  \
+0  ['MLA53566', 'MLA53545', 'MLA52903']            False   
+1                          ['MLA52903']            False   
+2              ['MLA29868', 'MLA52903']            False   
+3              ['MLA23369', 'MLA52903']            False   
+4                                    []            False   
+
+               date_created              last_updated health catalog_listing  
+0  2021-04-26T19:22:18.000Z  2024-05-04T22:03:29.000Z    NaN            True  
+1  2023-09-21T19:15:25.000Z  2024-05-03T11:52:08.659Z    NaN            True  
+2  2021-08-12T21:07:18.000Z  2024-05-04T13:54:15.765Z    NaN            True  
+3  2022-03-15T17:51:39.000Z  2024-05-04T20:12:05.000Z    NaN            True  
+4  2023-07-12T23:49:14.000Z  2024-05-02T01:03:17.000Z    NaN            True  
+
+[5 rows x 45 columns]
+
+Resumen estadístico de las columnas numéricas:
+               price     base_price  original_price  initial_quantity
+count      49.000000      49.000000       21.000000         49.000000
+mean   124397.404082  124397.404082   138125.142857       1758.408163
+std    129913.312333  129913.312333   118932.734103       6565.618237
+min      3999.000000    3999.000000     8900.000000          1.000000
+25%     58585.000000   58585.000000    55990.000000          4.000000
+50%     84990.000000   84990.000000    71990.000000         45.000000
+75%    128999.000000  128999.000000   249990.000000        999.000000
+max    671724.000000  671724.000000   369990.000000      39007.000000
+
+Información sobre las columnas y los tipos de datos:
+None
+
+Conteo de valores únicos en cada columna:
+id                                  49
+site_id                              1
+title                               48
+seller_id                           17
+category_id                          1
+official_store_id                    0
+price                               42
+base_price                          42
+original_price                      15
+currency_id                          1
+initial_quantity                    26
+sale_terms                          21
+buying_mode                          1
+listing_type_id                      2
+condition                            2
+permalink                           49
+thumbnail_id                        38
+thumbnail                           38
+pictures                            45
+video_id                             1
+descriptions                         1
+accepts_mercadopago                  1
+non_mercado_pago_payment_methods     1
+shipping                            11
+international_delivery_mode          1
+seller_address                      17
+seller_contact                       0
+location                             1
+coverage_areas                       1
+attributes                          34
+listing_source                       0
+variations                          43
+status                               1
+sub_status                           1
+tags                                31
+warranty                             9
+catalog_product_id                  12
+domain_id                            1
+parent_item_id                       0
+deal_ids                             8
+automatic_relist                     1
+date_created                        49
+last_updated                        49
+health                              10
+catalog_listing                      2
+dtype: int64
+
+Valores nulos o faltantes en el DataFrame:
+id                                   0
+site_id                              0
+title                                0
+seller_id                            0
+category_id                          0
+official_store_id                   49
+price                                0
+base_price                           0
+original_price                      28
+currency_id                          0
+initial_quantity                     0
+sale_terms                           0
+buying_mode                          0
+listing_type_id                      0
+condition                            0
+permalink                            0
+thumbnail_id                         0
+thumbnail                            0
+pictures                             0
+video_id                            47
+descriptions                         0
+accepts_mercadopago                  0
+non_mercado_pago_payment_methods     0
+shipping                             0
+international_delivery_mode          0
+seller_address                       0
+seller_contact                      49
+location                             0
+coverage_areas                       0
+attributes                           0
+listing_source                      49
+variations                           0
+status                               0
+sub_status                           0
+tags                                 0
+warranty                             0
+catalog_product_id                  23
+domain_id                            0
+parent_item_id                      49
+deal_ids                             0
+automatic_relist                     0
+date_created                         0
+last_updated                         0
+health                               7
+catalog_listing                      0
+dtype: int64

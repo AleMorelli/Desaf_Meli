@@ -1,0 +1,154 @@
+Primeras filas del DataFrame:
+              id site_id                                              title  \
+0  MLA1413602835     MLA  Chromecast Google Tv Hd 8gb 2gb Ram 60 Fps Wif...   
+1  MLA1696276176     MLA  Google Chromecast 3 Full Hd Media Streaming Negro   
+2  MLA1702536754     MLA  Google Chromecast 3ra Generación Streaming Hdm...   
+3  MLA1520563200     MLA  Chromecast With Google Tv De Voz 4ª Generación...   
+4  MLA1424686231     MLA  Google Chromecast 4 Generación Con Google Tv H...   
+
+    seller_id category_id  official_store_id     price  base_price  \
+0    21497735   MLA352001                NaN  70499.06    70499.06   
+1   216203805   MLA352001                NaN  89500.00    89500.00   
+2  1188493085   MLA352001                NaN  49598.00    49598.00   
+3  1473286957   MLA352001                NaN  84399.00    84399.00   
+4   466232376   MLA352001                NaN  71490.00    71490.00   
+
+   original_price currency_id  ...                         warranty  \
+0         74999.0         ARS  ...   Garantía del vendedor: 30 días   
+1         89500.0         ARS  ...    Garantía de fábrica: 12 meses   
+2         76499.0         ARS  ...  Garantía del vendedor: 12 meses   
+3             NaN         ARS  ...  Garantía del vendedor: 12 meses   
+4             NaN         ARS  ...     Garantía de fábrica: 6 meses   
+
+  catalog_product_id                    domain_id parent_item_id  \
+0        MLA21815165  MLA-STREAMING_MEDIA_DEVICES            NaN   
+1        MLA20544894  MLA-STREAMING_MEDIA_DEVICES            NaN   
+2        MLA20255932  MLA-STREAMING_MEDIA_DEVICES            NaN   
+3        MLA16233185  MLA-STREAMING_MEDIA_DEVICES            NaN   
+4        MLA24460156  MLA-STREAMING_MEDIA_DEVICES            NaN   
+
+       deal_ids automatic_relist              date_created  \
+0            []            False  2024-03-08T17:02:50.000Z   
+1  ['MLA54011']            False  2024-03-08T11:29:36.000Z   
+2   ['MLA6015']            False  2024-03-13T22:33:42.000Z   
+3  ['MLA23369']            False  2023-09-27T13:50:47.000Z   
+4            []            False  2024-05-03T20:01:17.000Z   
+
+               last_updated health catalog_listing  
+0  2024-05-04T22:06:02.000Z    NaN            True  
+1  2024-05-04T22:12:12.088Z    NaN            True  
+2  2024-05-04T20:57:49.000Z    NaN            True  
+3  2024-05-04T22:16:13.000Z    NaN            True  
+4  2024-05-04T21:38:05.000Z    NaN            True  
+
+[5 rows x 45 columns]
+
+Resumen estadístico de las columnas numéricas:
+               price     base_price  original_price  initial_quantity
+count      49.000000      49.000000       11.000000         49.000000
+mean    78633.209184   78633.209184    81010.181818        489.306122
+std     22464.235395   22464.235395    16853.640638        700.194860
+min     48051.000000   48051.000000    55999.000000          7.000000
+25%     59999.000000   59999.000000    74299.000000         65.000000
+50%     75999.050000   75999.050000    76499.000000        179.000000
+75%     89900.000000   89900.000000    84750.000000        629.000000
+max    138596.000000  138596.000000   117519.000000       3230.000000
+
+Información sobre las columnas y los tipos de datos:
+None
+
+Conteo de valores únicos en cada columna:
+id                                  49
+site_id                              1
+title                               48
+seller_id                           35
+category_id                          1
+official_store_id                    0
+price                               45
+base_price                          45
+original_price                      10
+currency_id                          1
+initial_quantity                    49
+sale_terms                          31
+buying_mode                          1
+listing_type_id                      2
+condition                            1
+permalink                           49
+thumbnail_id                        37
+thumbnail                           37
+pictures                            48
+video_id                             1
+descriptions                         1
+accepts_mercadopago                  1
+non_mercado_pago_payment_methods     1
+shipping                            12
+international_delivery_mode          1
+seller_address                      35
+seller_contact                       0
+location                             1
+coverage_areas                       1
+attributes                          46
+listing_source                       0
+variations                          36
+status                               1
+sub_status                           1
+tags                                28
+warranty                            10
+catalog_product_id                  19
+domain_id                            1
+parent_item_id                       0
+deal_ids                            15
+automatic_relist                     1
+date_created                        49
+last_updated                        48
+health                               6
+catalog_listing                      2
+dtype: int64
+
+Valores nulos o faltantes en el DataFrame:
+id                                   0
+site_id                              0
+title                                0
+seller_id                            0
+category_id                          0
+official_store_id                   49
+price                                0
+base_price                           0
+original_price                      38
+currency_id                          0
+initial_quantity                     0
+sale_terms                           0
+buying_mode                          0
+listing_type_id                      0
+condition                            0
+permalink                            0
+thumbnail_id                         0
+thumbnail                            0
+pictures                             0
+video_id                            47
+descriptions                         0
+accepts_mercadopago                  0
+non_mercado_pago_payment_methods     0
+shipping                             0
+international_delivery_mode          0
+seller_address                       0
+seller_contact                      49
+location                             0
+coverage_areas                       0
+attributes                           0
+listing_source                      49
+variations                           0
+status                               0
+sub_status                           0
+tags                                 0
+warranty                             0
+catalog_product_id                   4
+domain_id                            0
+parent_item_id                      49
+deal_ids                             0
+automatic_relist                     0
+date_created                         0
+last_updated                         0
+health                              12
+catalog_listing                      0
+dtype: int64
