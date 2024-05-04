@@ -1,0 +1,6 @@
+Explicación:
+
+La entidad "Customer" representa a los usuarios del sitio y tiene una relación de uno a muchos con la entidad "Order", ya que un cliente puede realizar varias órdenes, pero cada orden está asociada a un único cliente. La clave primaria de "Customer" es "customer_id", que también se utiliza como clave foránea en "Order" para establecer la relación.
+La entidad "Order" representa las transacciones generadas dentro del sitio y tiene una relación de uno a muchos con la entidad "Item", ya que una orden puede contener múltiples ítems, pero cada ítem está asociado a una sola orden. La clave primaria de "Order" es "order_id".
+La entidad "Item" representa los productos publicados en el marketplace. Tiene una relación de muchos a uno con la entidad "Category", ya que un ítem está asociado a una sola categoría, pero una categoría puede tener múltiples ítems. Además, tiene una relación de muchos a uno con la entidad "Order", ya que un ítem puede estar presente en múltiples órdenes. La clave primaria de "Item" es "item_id".
+La entidad "Category" representa las categorías de los ítems y tiene una relación de uno a muchos con la entidad "Item", ya que una categoría puede contener múltiples ítems, pero cada ítem está asociado a una sola categoría. La clave primaria de "Category" es "category_id".
