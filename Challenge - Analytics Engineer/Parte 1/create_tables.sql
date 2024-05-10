@@ -13,6 +13,7 @@ CREATE TABLE Customer (
 -- Crear la tabla Order
 CREATE TABLE "Order" (
     order_id NUMBER PRIMARY KEY,
+    item_id NUMBER,
     customer_id NUMBER,
     order_date DATE,
     monto_total NUMBER,
